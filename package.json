@@ -39,12 +39,15 @@
   },
   "homepage": "http://hodgepodgers.github.io/ng-intl-tel-input",
   "devDependencies": {
+    "angular": "^1.6.7",
+    "angular-mocks": "^1.6.7",
     "bower": "^1.4.1",
     "chai": "^3.2.0",
     "chai-as-promised": "^5.1.0",
     "concat-cli": "^1.0.1",
     "http-server": "^0.8.0",
     "jasmine-core": "^2.3.4",
+    "jquery": "^3.2.1",
     "jshint": "2.8.0",
     "karma": "^0.13.6",
     "karma-chrome-launcher": "^0.2.0",
@@ -58,5 +61,8 @@
     "protractor": "~2.4.0",
     "sinon": "^1.15.4",
     "uglify": "^0.1.5"
+  },
+  "dependencies": {
+    "intl-tel-input": "~12.1.6"
   }
 }
